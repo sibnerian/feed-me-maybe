@@ -19,6 +19,8 @@ class Notifications < ActionMailer::Base
 
   def send_mail(event)
     @greeting = "Hello"
+    @new_time = event.time.to_s
+    @name = event.name
     @all_rsvps = Rsvp.where("event_id = ?", event.id)
     if(@all_rsvps.length > 0)
       @all_rsvps.each do |rsvp|

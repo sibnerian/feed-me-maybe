@@ -45035,3 +45035,1344 @@ Served asset /users.js - 304 Not Modified (0ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-30 14:50:26 -0400
 Served asset /application.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-30 14:58:14 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "events" 
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "events" [0m
+  [1m[35mEvent Load (0.7ms)[0m  SELECT "events".* FROM "events" ORDER BY events.created_at DESC, id desc LIMIT 10 OFFSET 0
+  Rendered static_pages/_feed_item.html.erb (18.4ms)
+  Rendered static_pages/_feed.html.erb (100.7ms)
+  Rendered static_pages/home.html.erb within layouts/application (190.9ms)
+  Rendered layouts/_header.html.erb (7.6ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 351ms (Views: 333.2ms | ActiveRecord: 7.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-30 14:58:15 -0400
+Served asset /application.css - 304 Not Modified (77ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-03-30 14:58:15 -0400
+Served asset /static_pages.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-03-30 14:58:15 -0400
+Served asset /custom.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/rsvps.css?body=1" for 127.0.0.1 at 2013-03-30 14:58:15 -0400
+Served asset /rsvps.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2013-03-30 14:58:15 -0400
+Served asset /events.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-30 14:58:15 -0400
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-03-30 14:58:15 -0400
+Served asset /users.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-30 14:58:15 -0400
+Served asset /jquery.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-30 14:58:15 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2013-03-30 14:58:15 -0400
+Served asset /events.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/rsvps.js?body=1" for 127.0.0.1 at 2013-03-30 14:58:15 -0400
+Served asset /rsvps.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery-ui-timepicker-addon.js?body=1" for 127.0.0.1 at 2013-03-30 14:58:15 -0400
+Served asset /jquery-ui-timepicker-addon.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-03-30 14:58:15 -0400
+Served asset /static_pages.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-03-30 14:58:15 -0400
+Served asset /users.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-30 14:58:15 -0400
+Served asset /application.js - 304 Not Modified (11ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2013-03-30 14:58:20 -0400
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (0.5ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  Rendered layouts/_header.html.erb (4.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 26ms (Views: 25.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-30 14:58:20 -0400
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2013-03-30 14:58:20 -0400
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-03-30 14:58:20 -0400
+Served asset /custom.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-30 14:58:20 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-03-30 14:58:20 -0400
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rsvps.css?body=1" for 127.0.0.1 at 2013-03-30 14:58:20 -0400
+Served asset /rsvps.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-03-30 14:58:20 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-30 14:58:20 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-30 14:58:20 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2013-03-30 14:58:20 -0400
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rsvps.js?body=1" for 127.0.0.1 at 2013-03-30 14:58:20 -0400
+Served asset /rsvps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-timepicker-addon.js?body=1" for 127.0.0.1 at 2013-03-30 14:58:20 -0400
+Served asset /jquery-ui-timepicker-addon.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-03-30 14:58:20 -0400
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-03-30 14:58:20 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-30 14:58:21 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2013-03-30 14:58:22 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mEvent Load (0.3ms)[0m  [1mSELECT "events".* FROM "events" WHERE (user_id =1) ORDER BY events.created_at DESC[0m
+  Rendered users/show.html.erb within layouts/application (3.9ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  Rendered layouts/_header.html.erb (4.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 35ms (Views: 32.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-03-30 14:58:22 -0400
+Served asset /custom.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-30 14:58:22 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rsvps.css?body=1" for 127.0.0.1 at 2013-03-30 14:58:22 -0400
+Served asset /rsvps.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-30 14:58:22 -0400
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-03-30 14:58:22 -0400
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2013-03-30 14:58:22 -0400
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-03-30 14:58:22 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-30 14:58:22 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-30 14:58:22 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2013-03-30 14:58:22 -0400
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-timepicker-addon.js?body=1" for 127.0.0.1 at 2013-03-30 14:58:22 -0400
+Served asset /jquery-ui-timepicker-addon.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rsvps.js?body=1" for 127.0.0.1 at 2013-03-30 14:58:22 -0400
+Served asset /rsvps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-03-30 14:58:22 -0400
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-03-30 14:58:22 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-30 14:58:22 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/events/11" for 127.0.0.1 at 2013-03-30 14:58:25 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mEvent Load (0.3ms)[0m  [1mSELECT "events".* FROM "events" WHERE "events"."id" = ? ORDER BY events.created_at DESC LIMIT 1[0m  [["id", "11"]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mRsvp Load (0.1ms)[0m  [1mSELECT "rsvps".* FROM "rsvps" WHERE (event_id = 11 AND user_id = 1)[0m
+  [1m[35mRsvp Load (0.2ms)[0m  SELECT "rsvps".* FROM "rsvps" WHERE (event_id = 11 AND user_id = 1) LIMIT 1
+  Rendered events/show.html.erb within layouts/application (25.7ms)
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 52ms (Views: 48.0ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-30 14:58:25 -0400
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-03-30 14:58:25 -0400
+Served asset /custom.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/rsvps.css?body=1" for 127.0.0.1 at 2013-03-30 14:58:25 -0400
+Served asset /rsvps.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-03-30 14:58:25 -0400
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2013-03-30 14:58:25 -0400
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-30 14:58:25 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-30 14:58:25 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-03-30 14:58:25 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-30 14:58:25 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2013-03-30 14:58:25 -0400
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-timepicker-addon.js?body=1" for 127.0.0.1 at 2013-03-30 14:58:25 -0400
+Served asset /jquery-ui-timepicker-addon.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-03-30 14:58:25 -0400
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rsvps.js?body=1" for 127.0.0.1 at 2013-03-30 14:58:25 -0400
+Served asset /rsvps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-03-30 14:58:25 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-30 14:58:25 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/events/11/edit" for 127.0.0.1 at 2013-03-30 14:58:35 -0400
+Processing by EventsController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mEvent Load (0.2ms)[0m  [1mSELECT "events".* FROM "events" WHERE "events"."id" = ? ORDER BY events.created_at DESC LIMIT 1[0m  [["id", "11"]]
+  Rendered events/_form.html.erb (62.5ms)
+  Rendered events/edit.html.erb within layouts/application (66.4ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  Rendered layouts/_header.html.erb (4.2ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 95ms (Views: 91.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-30 14:58:35 -0400
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2013-03-30 14:58:35 -0400
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rsvps.css?body=1" for 127.0.0.1 at 2013-03-30 14:58:35 -0400
+Served asset /rsvps.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-30 14:58:35 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-03-30 14:58:35 -0400
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-03-30 14:58:35 -0400
+Served asset /custom.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-03-30 14:58:35 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-30 14:58:35 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-30 14:58:35 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2013-03-30 14:58:35 -0400
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-timepicker-addon.js?body=1" for 127.0.0.1 at 2013-03-30 14:58:35 -0400
+Served asset /jquery-ui-timepicker-addon.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rsvps.js?body=1" for 127.0.0.1 at 2013-03-30 14:58:35 -0400
+Served asset /rsvps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-03-30 14:58:35 -0400
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-30 14:58:35 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-03-30 14:58:35 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started PUT "/events/11" for 127.0.0.1 at 2013-03-30 14:58:39 -0400
+Processing by EventsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MbyaoaxsoJS2pgb0PfrF1WDK1wMQBDmnweooxrbiyYw=", "event"=>{"name"=>"Super Cool Event 2as", "contact"=>"484-793-5515", "latitude"=>"40.344023", "location"=>"Princeton University, Princeton, NJ", "longitude"=>"-74.65159900000003", "menu"=>"", "description"=>"asdf", "time(1i)"=>"2013", "time(2i)"=>"3", "time(3i)"=>"30", "time(4i)"=>"14", "time(5i)"=>"49"}, "commit"=>"Create Event", "id"=>"11"}
+  [1m[36mEvent Load (0.2ms)[0m  [1mSELECT "events".* FROM "events" WHERE "events"."id" = ? ORDER BY events.created_at DESC LIMIT 1[0m  [["id", "11"]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  UPDATE "events" SET "name" = 'Super Cool Event 2as', "updated_at" = '2013-03-30 18:58:39.176519' WHERE "events"."id" = 11
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+  [1m[35mRsvp Load (0.3ms)[0m  SELECT "rsvps".* FROM "rsvps" WHERE (event_id = 11)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE (id = 1) LIMIT 1[0m
+
+Sent mail to a@g.com (41ms)
+Date: Sat, 30 Mar 2013 14:58:39 -0400
+From: sibnerian@gmail.com
+To: a@g.com
+Message-ID: <515735df4b94c_1aaa3ff3061002c8620b5@nat-tvwna-inside-visitornet101-a-3854.princeton.org.mail>
+Subject: Event Change
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+Redirected to http://localhost:3000/events/11
+Completed 302 Found in 173ms (ActiveRecord: 2.3ms)
+
+
+Started GET "/events/11" for 127.0.0.1 at 2013-03-30 14:58:39 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[35mEvent Load (0.2ms)[0m  SELECT "events".* FROM "events" WHERE "events"."id" = ? ORDER BY events.created_at DESC LIMIT 1  [["id", "11"]]
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mRsvp Load (0.2ms)[0m  SELECT "rsvps".* FROM "rsvps" WHERE (event_id = 11 AND user_id = 1)
+  [1m[36mRsvp Load (0.2ms)[0m  [1mSELECT "rsvps".* FROM "rsvps" WHERE (event_id = 11 AND user_id = 1) LIMIT 1[0m
+  Rendered events/show.html.erb within layouts/application (10.0ms)
+  Rendered layouts/_header.html.erb (2.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 51ms (Views: 47.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-03-30 14:58:39 -0400
+Served asset /custom.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2013-03-30 14:58:39 -0400
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-30 14:58:39 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-03-30 14:58:39 -0400
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-30 14:58:39 -0400
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/rsvps.css?body=1" for 127.0.0.1 at 2013-03-30 14:58:39 -0400
+Served asset /rsvps.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-03-30 14:58:39 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2013-03-30 14:58:39 -0400
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-30 14:58:39 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-30 14:58:39 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-timepicker-addon.js?body=1" for 127.0.0.1 at 2013-03-30 14:58:39 -0400
+Served asset /jquery-ui-timepicker-addon.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-03-30 14:58:39 -0400
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rsvps.js?body=1" for 127.0.0.1 at 2013-03-30 14:58:39 -0400
+Served asset /rsvps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-03-30 14:58:39 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-30 14:58:39 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/events/11/edit" for 127.0.0.1 at 2013-03-30 15:01:14 -0400
+Processing by EventsController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[35mEvent Load (0.2ms)[0m  SELECT "events".* FROM "events" WHERE "events"."id" = ? ORDER BY events.created_at DESC LIMIT 1  [["id", "11"]]
+  Rendered events/_form.html.erb (68.6ms)
+  Rendered events/edit.html.erb within layouts/application (71.8ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  Rendered layouts/_header.html.erb (3.8ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 102ms (Views: 99.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-30 15:01:14 -0400
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-03-30 15:01:14 -0400
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-30 15:01:14 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2013-03-30 15:01:14 -0400
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-03-30 15:01:14 -0400
+Served asset /custom.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/rsvps.css?body=1" for 127.0.0.1 at 2013-03-30 15:01:14 -0400
+Served asset /rsvps.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-03-30 15:01:14 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-30 15:01:14 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-30 15:01:14 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2013-03-30 15:01:14 -0400
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-03-30 15:01:14 -0400
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-timepicker-addon.js?body=1" for 127.0.0.1 at 2013-03-30 15:01:14 -0400
+Served asset /jquery-ui-timepicker-addon.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rsvps.js?body=1" for 127.0.0.1 at 2013-03-30 15:01:14 -0400
+Served asset /rsvps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-30 15:01:14 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-03-30 15:01:14 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started PUT "/events/11" for 127.0.0.1 at 2013-03-30 15:01:17 -0400
+Processing by EventsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MbyaoaxsoJS2pgb0PfrF1WDK1wMQBDmnweooxrbiyYw=", "event"=>{"name"=>"Super Cool Event 2as", "contact"=>"484-793-5515", "latitude"=>"40.344023", "location"=>"Princeton University, Princeton, NJ", "longitude"=>"-74.65159900000003", "menu"=>"", "description"=>"asdf ", "time(1i)"=>"2013", "time(2i)"=>"3", "time(3i)"=>"30", "time(4i)"=>"14", "time(5i)"=>"49"}, "commit"=>"Create Event", "id"=>"11"}
+  [1m[35mEvent Load (0.3ms)[0m  SELECT "events".* FROM "events" WHERE "events"."id" = ? ORDER BY events.created_at DESC LIMIT 1  [["id", "11"]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.9ms)[0m  [1mUPDATE "events" SET "description" = 'asdf ', "updated_at" = '2013-03-30 19:01:17.679207' WHERE "events"."id" = 11[0m
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36mRsvp Load (0.2ms)[0m  [1mSELECT "rsvps".* FROM "rsvps" WHERE (event_id = 11)[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE (id = 1) LIMIT 1
+
+Sent mail to a@g.com (19ms)
+Date: Sat, 30 Mar 2013 15:01:17 -0400
+From: sibnerian@gmail.com
+To: a@g.com
+Message-ID: <5157367dab167_1aaa3ff30562795062148@nat-tvwna-inside-visitornet101-a-3854.princeton.org.mail>
+Subject: Event Change
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+Redirected to http://localhost:3000/events/11
+Completed 302 Found in 50ms (ActiveRecord: 2.7ms)
+
+
+Started GET "/events/11" for 127.0.0.1 at 2013-03-30 15:01:17 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mEvent Load (0.2ms)[0m  [1mSELECT "events".* FROM "events" WHERE "events"."id" = ? ORDER BY events.created_at DESC LIMIT 1[0m  [["id", "11"]]
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mRsvp Load (0.2ms)[0m  [1mSELECT "rsvps".* FROM "rsvps" WHERE (event_id = 11 AND user_id = 1)[0m
+  [1m[35mRsvp Load (0.2ms)[0m  SELECT "rsvps".* FROM "rsvps" WHERE (event_id = 11 AND user_id = 1) LIMIT 1
+  Rendered events/show.html.erb within layouts/application (8.3ms)
+  Rendered layouts/_header.html.erb (3.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 50ms (Views: 46.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-30 15:01:18 -0400
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-03-30 15:01:18 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-03-30 15:01:18 -0400
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-30 15:01:18 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rsvps.css?body=1" for 127.0.0.1 at 2013-03-30 15:01:18 -0400
+Served asset /rsvps.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-03-30 15:01:18 -0400
+Served asset /custom.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-30 15:01:18 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2013-03-30 15:01:18 -0400
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2013-03-30 15:01:18 -0400
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-30 15:01:18 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-timepicker-addon.js?body=1" for 127.0.0.1 at 2013-03-30 15:01:18 -0400
+Served asset /jquery-ui-timepicker-addon.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-03-30 15:01:18 -0400
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rsvps.js?body=1" for 127.0.0.1 at 2013-03-30 15:01:18 -0400
+Served asset /rsvps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-03-30 15:01:18 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-30 15:01:18 -0400
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2013-03-30 15:01:18 -0400
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/events/11/edit" for 127.0.0.1 at 2013-03-30 15:03:42 -0400
+Processing by EventsController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mEvent Load (0.2ms)[0m  [1mSELECT "events".* FROM "events" WHERE "events"."id" = ? ORDER BY events.created_at DESC LIMIT 1[0m  [["id", "11"]]
+  Rendered events/_form.html.erb (12.8ms)
+  Rendered events/edit.html.erb within layouts/application (15.2ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  Rendered layouts/_header.html.erb (41.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 97ms (Views: 77.3ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-30 15:03:43 -0400
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-03-30 15:03:43 -0400
+Served asset /custom.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/rsvps.css?body=1" for 127.0.0.1 at 2013-03-30 15:03:43 -0400
+Served asset /rsvps.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-03-30 15:03:43 -0400
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2013-03-30 15:03:43 -0400
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-30 15:03:43 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-03-30 15:03:43 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-30 15:03:43 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-30 15:03:43 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2013-03-30 15:03:43 -0400
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-timepicker-addon.js?body=1" for 127.0.0.1 at 2013-03-30 15:03:43 -0400
+Served asset /jquery-ui-timepicker-addon.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-03-30 15:03:43 -0400
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rsvps.js?body=1" for 127.0.0.1 at 2013-03-30 15:03:43 -0400
+Served asset /rsvps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-30 15:03:43 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-03-30 15:03:43 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started PUT "/events/11" for 127.0.0.1 at 2013-03-30 15:03:46 -0400
+Processing by EventsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MbyaoaxsoJS2pgb0PfrF1WDK1wMQBDmnweooxrbiyYw=", "event"=>{"name"=>"Super Cool Event 2", "contact"=>"484-793-5515", "latitude"=>"40.344023", "location"=>"Princeton University, Princeton, NJ", "longitude"=>"-74.65159900000003", "menu"=>"", "description"=>"asdf ", "time(1i)"=>"2013", "time(2i)"=>"3", "time(3i)"=>"30", "time(4i)"=>"14", "time(5i)"=>"49"}, "commit"=>"Create Event", "id"=>"11"}
+  [1m[36mEvent Load (0.2ms)[0m  [1mSELECT "events".* FROM "events" WHERE "events"."id" = ? ORDER BY events.created_at DESC LIMIT 1[0m  [["id", "11"]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  UPDATE "events" SET "name" = 'Super Cool Event 2', "updated_at" = '2013-03-30 19:03:46.616830' WHERE "events"."id" = 11
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+  [1m[35mRsvp Load (0.2ms)[0m  SELECT "rsvps".* FROM "rsvps" WHERE (event_id = 11)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE (id = 1) LIMIT 1[0m
+  Rendered notifications/send_mail.text.erb (0.8ms)
+
+Sent mail to a@g.com (26ms)
+Date: Sat, 30 Mar 2013 15:03:46 -0400
+From: sibnerian@gmail.com
+To: a@g.com
+Message-ID: <51573712b29ef_1aaa3ff306b34dac62238@nat-tvwna-inside-visitornet101-a-3854.princeton.org.mail>
+Subject: Event Change
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Hello, this is Sendgrid and Feed Me Maybe! The event is now occurring at 2013-03-30 14:49:00 UTC. Woot!
+
+Redirected to http://localhost:3000/events/11
+Completed 302 Found in 158ms (ActiveRecord: 3.0ms)
+
+
+Started GET "/events/11" for 127.0.0.1 at 2013-03-30 15:03:46 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[35mEvent Load (0.3ms)[0m  SELECT "events".* FROM "events" WHERE "events"."id" = ? ORDER BY events.created_at DESC LIMIT 1  [["id", "11"]]
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mRsvp Load (0.3ms)[0m  SELECT "rsvps".* FROM "rsvps" WHERE (event_id = 11 AND user_id = 1)
+  [1m[36mRsvp Load (0.2ms)[0m  [1mSELECT "rsvps".* FROM "rsvps" WHERE (event_id = 11 AND user_id = 1) LIMIT 1[0m
+  Rendered events/show.html.erb within layouts/application (12.5ms)
+  Rendered layouts/_header.html.erb (3.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 55ms (Views: 50.4ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-30 15:03:47 -0400
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-03-30 15:03:47 -0400
+Served asset /custom.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-30 15:03:47 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rsvps.css?body=1" for 127.0.0.1 at 2013-03-30 15:03:47 -0400
+Served asset /rsvps.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-03-30 15:03:47 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2013-03-30 15:03:47 -0400
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-03-30 15:03:47 -0400
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-30 15:03:47 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2013-03-30 15:03:47 -0400
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-30 15:03:47 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-timepicker-addon.js?body=1" for 127.0.0.1 at 2013-03-30 15:03:47 -0400
+Served asset /jquery-ui-timepicker-addon.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rsvps.js?body=1" for 127.0.0.1 at 2013-03-30 15:03:47 -0400
+Served asset /rsvps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-03-30 15:03:47 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-30 15:03:47 -0400
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-03-30 15:03:47 -0400
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-30 15:06:17 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "events" [0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "events" 
+  [1m[36mEvent Load (0.3ms)[0m  [1mSELECT "events".* FROM "events" ORDER BY events.created_at DESC, id desc LIMIT 10 OFFSET 0[0m
+  Rendered static_pages/_feed_item.html.erb (2.0ms)
+  Rendered static_pages/_feed.html.erb (81.0ms)
+  Rendered static_pages/home.html.erb within layouts/application (119.4ms)
+  Rendered layouts/_header.html.erb (3.2ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 149ms (Views: 141.7ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-30 15:06:17 -0400
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/rsvps.css?body=1" for 127.0.0.1 at 2013-03-30 15:06:17 -0400
+Served asset /rsvps.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-03-30 15:06:17 -0400
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2013-03-30 15:06:17 -0400
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-30 15:06:17 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-03-30 15:06:17 -0400
+Served asset /custom.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-03-30 15:06:17 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-30 15:06:17 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-30 15:06:17 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2013-03-30 15:06:17 -0400
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-timepicker-addon.js?body=1" for 127.0.0.1 at 2013-03-30 15:06:17 -0400
+Served asset /jquery-ui-timepicker-addon.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rsvps.js?body=1" for 127.0.0.1 at 2013-03-30 15:06:17 -0400
+Served asset /rsvps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-03-30 15:06:17 -0400
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-03-30 15:06:17 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-30 15:06:17 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-30 15:06:25 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "events" [0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "events" 
+  [1m[36mEvent Load (0.3ms)[0m  [1mSELECT "events".* FROM "events" ORDER BY events.created_at DESC, id desc LIMIT 10 OFFSET 0[0m
+  Rendered static_pages/_feed_item.html.erb (1.7ms)
+  Rendered static_pages/_feed.html.erb (7.9ms)
+  Rendered static_pages/home.html.erb within layouts/application (11.3ms)
+  Rendered layouts/_header.html.erb (2.2ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 34ms (Views: 32.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-03-30 15:06:25 -0400
+Served asset /custom.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-30 15:06:25 -0400
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2013-03-30 15:06:25 -0400
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-03-30 15:06:25 -0400
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rsvps.css?body=1" for 127.0.0.1 at 2013-03-30 15:06:25 -0400
+Served asset /rsvps.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-30 15:06:25 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-03-30 15:06:25 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-30 15:06:25 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-30 15:06:25 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-03-30 15:06:25 -0400
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rsvps.js?body=1" for 127.0.0.1 at 2013-03-30 15:06:25 -0400
+Served asset /rsvps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2013-03-30 15:06:25 -0400
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-timepicker-addon.js?body=1" for 127.0.0.1 at 2013-03-30 15:06:25 -0400
+Served asset /jquery-ui-timepicker-addon.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-03-30 15:06:25 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-30 15:06:25 -0400
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2013-03-30 15:06:28 -0400
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  Rendered layouts/_header.html.erb (3.9ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 25ms (Views: 24.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-30 15:06:28 -0400
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-03-30 15:06:28 -0400
+Served asset /custom.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2013-03-30 15:06:28 -0400
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-30 15:06:28 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rsvps.css?body=1" for 127.0.0.1 at 2013-03-30 15:06:28 -0400
+Served asset /rsvps.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-03-30 15:06:28 -0400
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-03-30 15:06:28 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-30 15:06:28 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-30 15:06:28 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2013-03-30 15:06:28 -0400
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-timepicker-addon.js?body=1" for 127.0.0.1 at 2013-03-30 15:06:28 -0400
+Served asset /jquery-ui-timepicker-addon.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-03-30 15:06:28 -0400
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rsvps.js?body=1" for 127.0.0.1 at 2013-03-30 15:06:28 -0400
+Served asset /rsvps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-03-30 15:06:28 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-30 15:06:28 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-30 15:06:34 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "events" 
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "events" [0m
+  [1m[35mEvent Load (0.3ms)[0m  SELECT "events".* FROM "events" ORDER BY events.created_at DESC, id desc LIMIT 10 OFFSET 0
+  Rendered static_pages/_feed_item.html.erb (1.8ms)
+  Rendered static_pages/_feed.html.erb (7.8ms)
+  Rendered static_pages/home.html.erb within layouts/application (11.2ms)
+  Rendered layouts/_header.html.erb (2.2ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 34ms (Views: 32.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-30 15:06:34 -0400
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-03-30 15:06:34 -0400
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-03-30 15:06:34 -0400
+Served asset /custom.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-30 15:06:34 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2013-03-30 15:06:34 -0400
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rsvps.css?body=1" for 127.0.0.1 at 2013-03-30 15:06:34 -0400
+Served asset /rsvps.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-30 15:06:34 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-30 15:06:34 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-03-30 15:06:34 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2013-03-30 15:06:34 -0400
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-timepicker-addon.js?body=1" for 127.0.0.1 at 2013-03-30 15:06:34 -0400
+Served asset /jquery-ui-timepicker-addon.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rsvps.js?body=1" for 127.0.0.1 at 2013-03-30 15:06:34 -0400
+Served asset /rsvps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-03-30 15:06:34 -0400
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-03-30 15:06:34 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-30 15:06:34 -0400
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-30 15:08:07 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "events" 
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "events" [0m
+  [1m[35mEvent Load (0.5ms)[0m  SELECT "events".* FROM "events" ORDER BY events.created_at DESC, id desc LIMIT 10 OFFSET 0
+  Rendered static_pages/_feed_item.html.erb (3.5ms)
+  Rendered static_pages/_feed.html.erb (12.3ms)
+  Rendered static_pages/home.html.erb within layouts/application (16.6ms)
+  Rendered layouts/_header.html.erb (3.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 44ms (Views: 42.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-30 15:08:07 -0400
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2013-03-30 15:08:07 -0400
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rsvps.css?body=1" for 127.0.0.1 at 2013-03-30 15:08:07 -0400
+Served asset /rsvps.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-03-30 15:08:07 -0400
+Served asset /custom.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-30 15:08:07 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-03-30 15:08:07 -0400
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-03-30 15:08:07 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-30 15:08:07 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2013-03-30 15:08:07 -0400
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-30 15:08:07 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-timepicker-addon.js?body=1" for 127.0.0.1 at 2013-03-30 15:08:07 -0400
+Served asset /jquery-ui-timepicker-addon.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rsvps.js?body=1" for 127.0.0.1 at 2013-03-30 15:08:07 -0400
+Served asset /rsvps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-03-30 15:08:07 -0400
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-03-30 15:08:07 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-30 15:08:07 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/events/" for 127.0.0.1 at 2013-03-30 15:08:08 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.4ms)[0m  [1mSELECT "events".* FROM "events" ORDER BY events.created_at DESC[0m
+Completed 406 Not Acceptable in 3ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/events/" for 127.0.0.1 at 2013-03-30 15:09:09 -0400
+Processing by EventsController#index as HTML
+  [1m[35mEvent Load (0.4ms)[0m  SELECT "events".* FROM "events" ORDER BY events.created_at DESC
+Completed 406 Not Acceptable in 2ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/events/" for 127.0.0.1 at 2013-03-30 15:09:12 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.3ms)[0m  [1mSELECT "events".* FROM "events" ORDER BY events.created_at DESC[0m
+Completed 406 Not Acceptable in 2ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-30 15:09:36 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "events" [0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "events" 
+  [1m[36mEvent Load (0.3ms)[0m  [1mSELECT "events".* FROM "events" ORDER BY events.created_at DESC, id desc LIMIT 10 OFFSET 0[0m
+  Rendered static_pages/_feed_item.html.erb (2.4ms)
+  Rendered static_pages/_feed.html.erb (8.6ms)
+  Rendered static_pages/home.html.erb within layouts/application (12.7ms)
+  Rendered layouts/_header.html.erb (2.4ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 92ms (Views: 90.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-30 15:09:36 -0400
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2013-03-30 15:09:36 -0400
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-30 15:09:36 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-03-30 15:09:36 -0400
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-03-30 15:09:36 -0400
+Served asset /custom.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/rsvps.css?body=1" for 127.0.0.1 at 2013-03-30 15:09:36 -0400
+Served asset /rsvps.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-03-30 15:09:36 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-30 15:09:36 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2013-03-30 15:09:36 -0400
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-30 15:09:36 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-timepicker-addon.js?body=1" for 127.0.0.1 at 2013-03-30 15:09:36 -0400
+Served asset /jquery-ui-timepicker-addon.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rsvps.js?body=1" for 127.0.0.1 at 2013-03-30 15:09:36 -0400
+Served asset /rsvps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-03-30 15:09:36 -0400
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-30 15:09:36 -0400
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-03-30 15:09:36 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/events/11" for 127.0.0.1 at 2013-03-30 15:09:38 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[35mEvent Load (0.3ms)[0m  SELECT "events".* FROM "events" WHERE "events"."id" = ? ORDER BY events.created_at DESC LIMIT 1  [["id", "11"]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mRsvp Load (0.1ms)[0m  SELECT "rsvps".* FROM "rsvps" WHERE (event_id = 11 AND user_id = 1)
+  [1m[36mRsvp Load (0.2ms)[0m  [1mSELECT "rsvps".* FROM "rsvps" WHERE (event_id = 11 AND user_id = 1) LIMIT 1[0m
+  Rendered events/show.html.erb within layouts/application (22.9ms)
+  Rendered layouts/_header.html.erb (1.9ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 48ms (Views: 44.4ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-30 15:09:38 -0400
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/rsvps.css?body=1" for 127.0.0.1 at 2013-03-30 15:09:38 -0400
+Served asset /rsvps.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2013-03-30 15:09:38 -0400
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-30 15:09:38 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-03-30 15:09:38 -0400
+Served asset /custom.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-03-30 15:09:38 -0400
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-03-30 15:09:38 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-30 15:09:38 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-30 15:09:38 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2013-03-30 15:09:38 -0400
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-timepicker-addon.js?body=1" for 127.0.0.1 at 2013-03-30 15:09:38 -0400
+Served asset /jquery-ui-timepicker-addon.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rsvps.js?body=1" for 127.0.0.1 at 2013-03-30 15:09:38 -0400
+Served asset /rsvps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-03-30 15:09:38 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-03-30 15:09:38 -0400
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-30 15:09:38 -0400
+Served asset /application.js - 304 Not Modified (0ms)

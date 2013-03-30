@@ -1,9 +1,9 @@
 <li id="<%= feed_item.id %>">
   <span class="user">
-<%= feed_item.name %>
+<a href="/events/<%= feed_item.id %>"> <%= feed_item.name %>    </a>
 </span>
   <span class="content"><%= feed_item.description %></span>
 <span class="timestamp">
-Posted <%= time_ago_in_words(feed_item.created_at) %> ago.
+posted <%= time_ago_in_words(feed_item.created_at) %> ago.
 </span>
 </li>
