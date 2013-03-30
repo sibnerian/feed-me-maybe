@@ -67,7 +67,7 @@ class EventsController < ApplicationController
     else
       respond_to do |format|
         if @event.update_attributes(params[:event])
-          Notifications.send_mail(@event).deliver
+          #Notifications.send_mail(@event).deliver
 
           format.html { redirect_to @event, notice: 'Event was successfully updated.' }
           format.json { head :no_content }
