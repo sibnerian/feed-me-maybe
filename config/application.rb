@@ -59,7 +59,16 @@ module FoodFinder
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
 
+    config.action_mailer.smtp_settings = {
+        :address => 'smtp.sendgrid.net',
+        :port => '587',
+        :authentication => :plain,
+        :user_name      => ENV['app14249328@heroku.com'],
+        :password       => ENV['5lvtybk3'],
+        :domain => 'heroku.com'
+    }
+
     config.action_mailer.default_url_options =
-        { :host => 'feed-me-maybe.herokapp.com' }
+        { :host => 'feed-me-maybe.herokuapp.com' }
   end
 end

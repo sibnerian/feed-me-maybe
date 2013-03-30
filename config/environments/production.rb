@@ -74,7 +74,7 @@ FoodFinder::Application.configure do
       :domain => 'heroku.com'
   }
   config.action_mailer.default_url_options =
-  { :host => "feed-me-maybe.herokapp.com" }
+  { :host => "feed-me-maybe.herokuapp.com" }
 
 
 end
