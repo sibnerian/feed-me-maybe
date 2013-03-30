@@ -2,11 +2,11 @@
 
 
 <div class="center hero-unit">
-  <h1>Welcome to Feed Me Maybe</h1>
+  <h1 style="font-size: 3em;">Welcome to Feed Me Maybe</h1>
 
   <h2>
     This is the home page for the
-    <a href="http://railstutorial.org/"> FEED ME MAYBE</a> application.
+    <span style="color:#494949;">Feed Me Maybe</span> app. If you like food, you've come to the right place.
   </h2>
   <% if not user_signed_in? %>
     <%= link_to "Sign up now!", new_user_registration_path, class: "btn btn-large btn-primary" %>
