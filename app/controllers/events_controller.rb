@@ -1,3 +1,5 @@
+require 'net/http'
+
 class EventsController < ApplicationController
   before_filter :correct_user, only: :destroy
   # GET /events
@@ -67,7 +69,25 @@ class EventsController < ApplicationController
     else
       respond_to do |format|
         if @event.update_attributes(params[:event])
-          Notifications.send_mail(@event).deliver
+          @greeting = "Hello"
+          @new_time = @event.time.to_s
+          @name = @event.name
+          @all_rsvps = Rsvp.where("event_id = ?", @event.id)
+          if(@all_rsvps.length > 0)
+            @all_rsvps.each do |rsvp|
+              @user = User.where("id = ?", rsvp.user_id).first
+              s = "sendgrid.com/api/mail.send.json?to=" + @user.email + "&from=sibnerian%40gmail.com&subject=Hello%20" +@user.name + "&text=sentfromsendgrid&api_user=app14249328@heroku.com&api_key=5lvtybk3"
+              s = URI::escape(s)
+              uri = URI(s)
+              request = Net::HTTP::Get.new(uri.path)
+
+              response = Net::HTTP.new(uri.host,uri.port) do |http|
+                http.request(request)
+              end
+
+              puts response
+            end
+          end
 
           format.html { redirect_to @event, notice: 'Event was successfully updated.' }
           format.json { head :no_content }
