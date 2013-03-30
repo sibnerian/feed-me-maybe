@@ -37,6 +37,10 @@ class UsersController < ApplicationController
   # GET /users/1/edit
   def edit
     @user = User.find(params[:id])
+    if (not user_signed_in? ) or (not current_user.id == @user.id)
+      redirect_to new_user_session_path, notice: "You must sign in to un-RSVP"
+    end
+    @user = User.find(params[:id])
   end
 
   # POST /users
