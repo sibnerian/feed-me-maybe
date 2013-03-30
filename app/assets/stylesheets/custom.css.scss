@@ -94,8 +94,17 @@ input, textarea, select, .uneditable-input {
   @include box_sizing
 }
 
-input, textarea, select, .uneditable-input, label,#user_remember_me {
+input, textarea,  .uneditable-input, label,#user_remember_me {
   margin-left: 25%;
+}
+
+#event_time_1i{
+  margin-left: 25%;
+}
+
+
+select {
+  width: 10%;
 }
 
 input {
@@ -133,6 +142,9 @@ input {
   margin-left: 25%;
   width: 100%;
 }
+
+
+
 
 
 
