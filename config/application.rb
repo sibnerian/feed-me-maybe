@@ -68,7 +68,7 @@ module FoodFinder
         :domain => 'heroku.com'
     }
 
-    config.action_mailer.default_url_options =
+    config.action_mailer.default_url_options
         { :host => 'feed-me-maybe.herokuapp.com' }
   end
 end
