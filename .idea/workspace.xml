@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="52bc8d23-b432-47ce-aa4b-930bf9c3245c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/CD8/370/sprockets%2F357970feca3ac29060c1e3861e2c0953" afterPath="$PROJECT_DIR$/tmp/cache/assets/CD8/370/sprockets%2F357970feca3ac29060c1e3861e2c0953" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/D0F/CE0/sprockets%2Fd6c7ce3ac277094b04690a43947ede22" afterPath="$PROJECT_DIR$/tmp/cache/assets/D0F/CE0/sprockets%2Fd6c7ce3ac277094b04690a43947ede22" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/D32/A10/sprockets%2F13fe41fee1fe35b49d145bcc06610705" afterPath="$PROJECT_DIR$/tmp/cache/assets/D32/A10/sprockets%2F13fe41fee1fe35b49d145bcc06610705" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/D5A/EA0/sprockets%2Fd771ace226fc8215a3572e0aa35bb0d6" afterPath="$PROJECT_DIR$/tmp/cache/assets/D5A/EA0/sprockets%2Fd771ace226fc8215a3572e0aa35bb0d6" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/D9A/370/sprockets%2F1a66d8334bb82817e826dbeba46cf0cc" afterPath="$PROJECT_DIR$/tmp/cache/assets/D9A/370/sprockets%2F1a66d8334bb82817e826dbeba46cf0cc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/DCE/A10/sprockets%2Fedbf63d87f211c17de329b8a471a7caf" afterPath="$PROJECT_DIR$/tmp/cache/assets/DCE/A10/sprockets%2Fedbf63d87f211c17de329b8a471a7caf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/sass/99d6e7c6cee188e2a2b6e39979ac43c2e9afa572/custom.css.scssc" afterPath="$PROJECT_DIR$/tmp/cache/sass/99d6e7c6cee188e2a2b6e39979ac43c2e9afa572/custom.css.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" />
-    </list>
+    <list default="true" id="52bc8d23-b432-47ce-aa4b-930bf9c3245c" name="Default" comment="" />
     <ignored path="f.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -105,14 +96,14 @@
       <file leaf-file-name="custom.css.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="154" column="0" selection-start="1866" selection-end="1866" vertical-scroll-proportion="0.0">
+            <state line="147" column="0" selection-start="1846" selection-end="1846" vertical-scroll-proportion="0.0">
               <folding>
-                <marker date="1364662215000" expanded="true" signature="1439:1467" placeholder="{...}" />
-                <marker date="1364662215000" expanded="true" signature="1500:1684" placeholder="{...}" />
-                <marker date="1364662215000" expanded="true" signature="1578:1664" placeholder="{...}" />
-                <marker date="1364662215000" expanded="true" signature="1719:1796" placeholder="{...}" />
-                <marker date="1364662215000" expanded="true" signature="1757:1796" placeholder="{...}" />
-                <marker date="1364662215000" expanded="true" signature="1817:1832" placeholder="{...}" />
+                <marker date="1364662268000" expanded="true" signature="1439:1467" placeholder="{...}" />
+                <marker date="1364662268000" expanded="true" signature="1500:1684" placeholder="{...}" />
+                <marker date="1364662268000" expanded="true" signature="1578:1664" placeholder="{...}" />
+                <marker date="1364662268000" expanded="true" signature="1719:1796" placeholder="{...}" />
+                <marker date="1364662268000" expanded="true" signature="1757:1796" placeholder="{...}" />
+                <marker date="1364662268000" expanded="true" signature="1817:1832" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -121,7 +112,7 @@
       <file leaf-file-name="home.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/static_pages/home.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="57" selection-start="222" selection-end="222" vertical-scroll-proportion="0.25">
+            <state line="17" column="33" selection-start="453" selection-end="453" vertical-scroll-proportion="0.53125">
               <folding>
                 <element signature="n#style#0;n#h1#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#h2#0;n#div#0;n#!!top" expanded="true" />
@@ -409,6 +400,13 @@
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="development" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote">
+      <JSRemoteDebuggerConfigurationSettings>
+        <option name="engineId" />
+        <option name="fileUrl" />
+      </JSRemoteDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="false" name="test" type="RakeRunConfigurationType" factoryName="Rake">
@@ -701,21 +699,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="154" column="0" selection-start="1866" selection-end="1866" vertical-scroll-proportion="0.0">
+        <state line="147" column="0" selection-start="1846" selection-end="1846" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1364662215000" expanded="true" signature="1439:1467" placeholder="{...}" />
-            <marker date="1364662215000" expanded="true" signature="1500:1684" placeholder="{...}" />
-            <marker date="1364662215000" expanded="true" signature="1578:1664" placeholder="{...}" />
-            <marker date="1364662215000" expanded="true" signature="1719:1796" placeholder="{...}" />
-            <marker date="1364662215000" expanded="true" signature="1757:1796" placeholder="{...}" />
-            <marker date="1364662215000" expanded="true" signature="1817:1832" placeholder="{...}" />
+            <marker date="1364662268000" expanded="true" signature="1439:1467" placeholder="{...}" />
+            <marker date="1364662268000" expanded="true" signature="1500:1684" placeholder="{...}" />
+            <marker date="1364662268000" expanded="true" signature="1578:1664" placeholder="{...}" />
+            <marker date="1364662268000" expanded="true" signature="1719:1796" placeholder="{...}" />
+            <marker date="1364662268000" expanded="true" signature="1757:1796" placeholder="{...}" />
+            <marker date="1364662268000" expanded="true" signature="1817:1832" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/static_pages/home.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="57" selection-start="222" selection-end="222" vertical-scroll-proportion="0.25">
+        <state line="17" column="33" selection-start="453" selection-end="453" vertical-scroll-proportion="0.53125">
           <folding>
             <element signature="n#style#0;n#h1#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#h2#0;n#div#0;n#!!top" expanded="true" />
