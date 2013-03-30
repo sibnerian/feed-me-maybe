@@ -73,7 +73,7 @@ FoodFinder::Application.configure do
       :password       => ENV['5lvtybk3'],
       :domain => 'heroku.com'
   }
-  config.action_mailer.default_url_options
+  config.action_mailer.default_url_options =
   { :host => "feed-me-maybe.herokapp.com" }
 
 
