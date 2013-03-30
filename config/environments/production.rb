@@ -65,20 +65,6 @@ FoodFinder::Application.configure do
   # with SQLite, MySQL, and PostgreSQL)
   # config.active_record.auto_explain_threshold_in_seconds = 0.5
 
-  config.action_mailer.smtp_settings = {
-      :address => 'smtp.sendgrid.net',
-      :port => '587',
-      :authentication => :plain,
-      :user_name      => ENV['app14249328@heroku.com'],
-      :password       => ENV['5lvtybk3'],
-      :domain => 'heroku.com'
-  }
-
-  config.action_mailer.delivery_method = :smtp
-
-  config.action_mailer.default_url_options
-  { :host => "feed-me-maybe.herokuapp.com" }
-
 
 end
 
