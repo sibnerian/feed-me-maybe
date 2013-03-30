@@ -144,8 +144,12 @@
     <%= f.label :description %><br />
     <%= f.text_field :description %>
   </div>
-  <div class="field">
-    <%= f.label :time %><br />
+  <div class="field" style ="vertical-align: top;
+          line-height: 25px;
+          font-size: 125%;
+          margin-top:-10px;
+          ">
+    <%= f.label :time , :style => "margin-bottom:-10px" %><br />
     <%= f.datetime_select :time %>
   </div>
   
