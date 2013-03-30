@@ -3,21 +3,21 @@ class RsvpsController < ApplicationController
   # GET /rsvps.json
   before_filter :authenticate_user!
   def index
-    redirect_to root_path
+    redirect_to root_path, notice: "RSVP created successfully."
 
   end
 
   # GET /rsvps/1
   # GET /rsvps/1.json
   def show
-    redirect_to root_path
+    redirect_to root_path, notice: "RSVP created successfully."
 
   end
 
   # GET /rsvps/new
   # GET /rsvps/new.json
   def new
-    redirect_to root_path
+    redirect_to root_path, notice: "RSVP created successfully."
 
   end
 
@@ -37,7 +37,7 @@ class RsvpsController < ApplicationController
 
     respond_to do |format|
       if @rsvp.save
-        format.html { redirect_to @rsvp, notice: 'Rsvp was successfully created.' }
+        format.html { redirect_to "/events/" + @rsvp.event_id.to_s, notice: 'Rsvp was successfully created.' }
         format.json { render json: @rsvp, status: :created, location: @rsvp }
       else
         format.html { render action: "new" }
@@ -61,7 +61,7 @@ class RsvpsController < ApplicationController
     @rsvp.destroy
 
     respond_to do |format|
-      format.html { redirect_to "/events/" + @rsvp.event_id.to_s }
+      format.html { redirect_to "/events/" + @rsvp.event_id.to_s, notice: "RSVP cancelled." }
       format.json { head :no_content }
     end
   end

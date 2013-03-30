@@ -6,6 +6,7 @@ gem 'devise'
 gem 'newrelic_rpm'
 gem 'will_paginate'
 gem 'bootstrap-will_paginate'
+gem 'mail'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -26,6 +27,7 @@ gem 'jquery-rails'
 group :development do 
   gem 'sqlite3'
   gem 'rspec-rails'
+  gem 'letter_opener'
 end
 
 group :production do 
