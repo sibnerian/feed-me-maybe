@@ -23,7 +23,7 @@ class RsvpsController < ApplicationController
 
   # GET /rsvps/1/edit
   def edit
-    @rsvp = Rsvp.find(params[:id])
+    redirect_to root_path
   end
 
   # POST /rsvps

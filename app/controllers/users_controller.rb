@@ -38,9 +38,10 @@ class UsersController < ApplicationController
   def edit
     @user = User.find(params[:id])
     if (not user_signed_in? ) or (not current_user.id == @user.id)
-      redirect_to new_user_session_path, notice: "You must sign in to un-RSVP"
+      redirect_to root_path, notice: "You must sign in as this user to edit their profile."
+    else
+      @user = User.find(params[:id])
     end
-    @user = User.find(params[:id])
   end
 
   # POST /users
@@ -64,14 +65,18 @@ class UsersController < ApplicationController
   # PUT /users/1.json
   def update
     @user = User.find(params[:id])
+    if (not user_signed_in? ) or (not current_user.id == @user.id)
+      redirect_to root_path, notice: "You must sign in as this user to edit their profile."
+    else
 
-    respond_to do |format|
-      if @user.update_attributes(params[:user])
-        format.html { redirect_to @user, notice: 'User was successfully updated.' }
-        format.json { head :no_content }
-      else
-        format.html { render action: "edit" }
-        format.json { render json: @user.errors, status: :unprocessable_entity }
+      respond_to do |format|
+        if @user.update_attributes(params[:user])
+          format.html { redirect_to @user, notice: 'User was successfully updated.' }
+          format.json { head :no_content }
+        else
+          format.html { render action: "edit" }
+          format.json { render json: @user.errors, status: :unprocessable_entity }
+        end
       end
     end
   end
@@ -80,11 +85,14 @@ class UsersController < ApplicationController
   # DELETE /users/1.json
   def destroy
     @user = User.find(params[:id])
-    #@user.destroy
-
-    respond_to do |format|
-      format.html { redirect_to users_url }
-      format.json { head :no_content }
+    if (not user_signed_in? ) or (not current_user.id == @user.id)
+      redirect_to root_path, notice: "You must sign in as this user to edit their profile."
+    else
+      respond_to do |format|
+        format.html { redirect_to users_url }
+        format.json { head :no_content }
+      end
     end
   end
+
 end
