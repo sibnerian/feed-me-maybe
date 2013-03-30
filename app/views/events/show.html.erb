@@ -1,11 +1,53 @@
 <p id="notice"><%= notice %></p>
+<script type="text/javascript"
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAgh3w_nXd2jjakw-oftQ3Ze3MWT5zxem4&sensor=false">
+</script>
+<style>
+
+    #map-canvas {
+        height: 500px;
+        width: 500px;
+        margin-top: 0.6em;
+    }
+    input {
+        border: 1px solid  rgba(0, 0, 0, 0.5);
+    }
+    input.notfound {
+        border: 2px solid  rgba(255, 0, 0, 0.4);
+    }
+</style>
+<script type="text/javascript">
+    var makeAMap = function() {
+        var options = {
+            center: new google.maps.LatLng(<%= @event.latitude %>, <%= @event.longitude %>),
+            zoom: 12,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+        var map2 = new google.maps.Map(document.getElementById("map-canvas"),
+                options);
+
+        var marker = new google.maps.Marker({
+            position: map2.getCenter(),
+            map: map2,
+        }
+        );
+        var infowindow = new google.maps.InfoWindow();
+        infowindow.setContent('<div><strong>' + "<%= @event.location %>" +  '</strong></div>');
+        infowindow.open(map2, marker);
+
+
+    };
+    google.maps.event.addDomListener(window, 'load', makeAMap);
+
+
+</script>
 
 <p>
   <b>Contact:</b>
   <%= @event.contact %>
 </p>
 
-<p>
+<p style = "display: none;">
   <b>Latitude:</b>
   <%= @event.latitude %>
 </p>
@@ -15,7 +57,7 @@
   <%= @event.location %>
 </p>
 
-<p>
+<p style = "display: none;">
   <b>Longitude:</b>
   <%= @event.longitude %>
 </p>
@@ -65,7 +107,7 @@
         <input name="commit" type="submit" value="Rsvp" />
       </div>
 
-    </div class="map">
+    <div id="map-canvas">
 
     </div>
 
