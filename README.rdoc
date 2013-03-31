@@ -7,3 +7,9 @@ We have.
 To tackle both of these problems at once, we present Feed Me Maybe. There's a lot of food out there. Get some.
 
 = Sendgrid is now working!
+
+== Todo
+1. Show RSVPs on event page
+2. Implement the event_changed mailer (ie notification.rb#send_mail)
+3. Implement Facebook login with OmniAuth for iPhone app purposes
+4. Implement searches like date, location, etc
