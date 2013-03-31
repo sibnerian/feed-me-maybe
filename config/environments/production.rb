@@ -67,11 +67,11 @@ FoodFinder::Application.configure do
 
   config.action_mailer.default_url_options = { :host => "feed-me-maybe.herokapp.com" }
   ActionMailer::Base.smtp_settings = {
-      :address        => "smtp.sendgrid.net",
-      :port           => "587",
+      :address        => 'smtp.sendgrid.net',
+      :port           => '587',
       :authentication => :plain,
-      :user_name      => 'app14249328@heroku.com',
-      :password       => '5lvtybk3',
+      :user_name      => ENV['SENDGRID_USERNAME'],
+      :password       => ENV['SENDGRID_PASSWORD'],
       :domain         => 'heroku.com',
       :enable_starttls_auto => true
   }
