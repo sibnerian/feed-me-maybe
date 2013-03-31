@@ -426,3 +426,16 @@
 [03/30/13 17:07:44 -0400 nat-tvwna-inside-visitornet101-a-3854.princeton.org (7359)] INFO : Installing Rails 3.1/3.2 view instrumentation
 [03/30/13 17:07:44 -0400 nat-tvwna-inside-visitornet101-a-3854.princeton.org (7359)] INFO : Installing Rails3 Error instrumentation
 [03/30/13 17:07:44 -0400 nat-tvwna-inside-visitornet101-a-3854.princeton.org (7359)] INFO : Finished instrumentation
+[03/31/13 13:24:40 -0400 new-host.home (8035)] INFO : Reading configuration from 
+[03/31/13 13:24:40 -0400 new-host.home (8035)] ERROR : Unable to read configuration file : can't convert nil into String
+[03/31/13 13:24:40 -0400 new-host.home (8035)] INFO : Starting the New Relic Agent.
+[03/31/13 13:24:40 -0400 new-host.home (8035)] INFO : Environment: development
+[03/31/13 13:24:40 -0400 new-host.home (8035)] INFO : Dispatcher: webrick
+[03/31/13 13:24:40 -0400 new-host.home (8035)] INFO : Application: development
+[03/31/13 13:24:40 -0400 new-host.home (8035)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[03/31/13 13:24:40 -0400 new-host.home (8035)] INFO : Installing ActiveRecord instrumentation
+[03/31/13 13:24:40 -0400 new-host.home (8035)] INFO : Installing Net instrumentation
+[03/31/13 13:24:40 -0400 new-host.home (8035)] INFO : Installing Rails 3 Controller instrumentation
+[03/31/13 13:24:41 -0400 new-host.home (8035)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[03/31/13 13:24:41 -0400 new-host.home (8035)] INFO : Installing Rails3 Error instrumentation
+[03/31/13 13:24:41 -0400 new-host.home (8035)] INFO : Finished instrumentation
