@@ -478,3 +478,29 @@
 [03/31/13 14:57:36 -0400 new-host.home (8500)] INFO : Installing Rails 3.1/3.2 view instrumentation
 [03/31/13 14:57:36 -0400 new-host.home (8500)] INFO : Installing Rails3 Error instrumentation
 [03/31/13 14:57:36 -0400 new-host.home (8500)] INFO : Finished instrumentation
+[03/31/13 15:37:22 -0400 new-host.home (8675)] INFO : Reading configuration from 
+[03/31/13 15:37:22 -0400 new-host.home (8675)] ERROR : Unable to read configuration file : can't convert nil into String
+[03/31/13 15:37:22 -0400 new-host.home (8675)] INFO : Starting the New Relic Agent.
+[03/31/13 15:37:22 -0400 new-host.home (8675)] INFO : Environment: development
+[03/31/13 15:37:22 -0400 new-host.home (8675)] INFO : Dispatcher: webrick
+[03/31/13 15:37:22 -0400 new-host.home (8675)] INFO : Application: development
+[03/31/13 15:37:22 -0400 new-host.home (8675)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[03/31/13 15:37:22 -0400 new-host.home (8675)] INFO : Installing ActiveRecord instrumentation
+[03/31/13 15:37:22 -0400 new-host.home (8675)] INFO : Installing Net instrumentation
+[03/31/13 15:37:22 -0400 new-host.home (8675)] INFO : Installing Rails 3 Controller instrumentation
+[03/31/13 15:37:22 -0400 new-host.home (8675)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[03/31/13 15:37:22 -0400 new-host.home (8675)] INFO : Installing Rails3 Error instrumentation
+[03/31/13 15:37:22 -0400 new-host.home (8675)] INFO : Finished instrumentation
+[03/31/13 15:41:48 -0400 new-host.home (8689)] INFO : Reading configuration from 
+[03/31/13 15:41:48 -0400 new-host.home (8689)] ERROR : Unable to read configuration file : can't convert nil into String
+[03/31/13 15:41:48 -0400 new-host.home (8689)] INFO : Starting the New Relic Agent.
+[03/31/13 15:41:48 -0400 new-host.home (8689)] INFO : Environment: development
+[03/31/13 15:41:48 -0400 new-host.home (8689)] INFO : Dispatcher: webrick
+[03/31/13 15:41:48 -0400 new-host.home (8689)] INFO : Application: development
+[03/31/13 15:41:48 -0400 new-host.home (8689)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[03/31/13 15:41:48 -0400 new-host.home (8689)] INFO : Installing ActiveRecord instrumentation
+[03/31/13 15:41:48 -0400 new-host.home (8689)] INFO : Installing Net instrumentation
+[03/31/13 15:41:48 -0400 new-host.home (8689)] INFO : Installing Rails 3 Controller instrumentation
+[03/31/13 15:41:49 -0400 new-host.home (8689)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[03/31/13 15:41:49 -0400 new-host.home (8689)] INFO : Installing Rails3 Error instrumentation
+[03/31/13 15:41:49 -0400 new-host.home (8689)] INFO : Finished instrumentation

@@ -138,7 +138,7 @@
 
       <div class="field" style="display: none;">
         <label for="rsvp_user_id">User</label><br />
-        <input id="rsvp_user_id" name="rsvp[user_id]" type="number" value="<%= @event.user_id.to_s %>"/>
+        <input id="rsvp_user_id" name="rsvp[user_id]" type="number" value="<%= current_user.id.to_s %>"/>
       </div>
       <div class="field" style="display: none;">
         <label for="rsvp_event_id">Event</label><br />

@@ -30,20 +30,22 @@ class RsvpsController < ApplicationController
   # POST /rsvps.json
   def create
     @rsvp = Rsvp.new(params[:rsvp])
-
+    #puts "RSVP ######################"
+    #puts @rsvp.user_id.to_s
+    #puts current_user.id.to_s
     if(not @rsvp.user_id == current_user.id)
       redirect_to "/events/"+ @rsvp.event_id.to_s , notice: "Don't try signing in for the wrong user."
     end
-
-    respond_to do |format|
-      if @rsvp.save
-        format.html { redirect_to "/events/" + @rsvp.event_id.to_s, notice: 'Rsvp was successfully created.' }
-        format.json { render json: @rsvp, status: :created, location: @rsvp }
-      else
-        format.html { render action: "new" }
-        format.json { render json: @rsvp.errors, status: :unprocessable_entity }
+    else
+      respond_to do |format|
+        if @rsvp.save
+          format.html { redirect_to "/events/" + @rsvp.event_id.to_s, notice: 'Rsvp was successfully created.' }
+          format.json { render json: @rsvp, status: :created, location: @rsvp }
+        else
+          format.html { render action: "new" }
+          format.json { render json: @rsvp.errors, status: :unprocessable_entity }
+        end
       end
-    end
   end
 
   # PUT /rsvps/1
