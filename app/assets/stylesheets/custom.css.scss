@@ -134,6 +134,7 @@ input {
   li {
     padding: 10px 0;
     border-top: 1px solid #e8e8e8;
+    text-align: center;
   }
 }
 
@@ -145,6 +146,10 @@ input {
 #map-canvas {
   margin-left: 25%;
   width: 100%;
+}
+
+.pagination{
+  text-align: center;
 }
 
 

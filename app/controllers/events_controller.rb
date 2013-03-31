@@ -76,7 +76,7 @@ class EventsController < ApplicationController
           if(@all_rsvps.length > 0)
             @all_rsvps.each do |rsvp|
               @user = User.where("id = ?", rsvp.user_id).first
-              s = "sendgrid.com/api/mail.send.json?to=" + @user.email + "&from=sibnerian%40gmail.com&subject=Hello%20" +@user.name + "&text=sentfromsendgrid&api_user=app14249328@heroku.com&api_key=5lvtybk3"
+              s = "sendgrid.com/api/mail.send.json?to=sibnerian%40gmail.com&from=sibnerian%40gmail.com&subject=Hello%20Ian%20Sibner.Your%20event%20is%20now%March%20thirtieth%20twwentyfifteen&text=sentfromsendgrid&api_user=app14249328%40heroku.com&api_key=5lvtybk3"
               s = URI::escape(s)
               uri = URI(s)
               request = Net::HTTP::Get.new(uri.path)
