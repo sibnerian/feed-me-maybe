@@ -4,8 +4,19 @@
       <%= link_to "Feed Me Maybe", root_path , class: "brand" %>
       <nav>
         <ul class="nav pull-right">
-          <li><%= link_to "Home",    root_path %></li>
-          <li><%= link_to "About",    about_path %></li>
+
+          <li>
+            <%= link_to "Home",    root_path %>
+          </li>
+
+          <li>
+            <%=  link_to("Events", feed_path) %>
+          </li>
+
+          <li>
+            <%= link_to "About",    about_path %>
+          </li>
+
           <% if user_signed_in? %>
               <!--
               <li id="fat-menu" class="dropdown">
@@ -19,11 +30,12 @@
               </li>
               -->
               <li>
-                 <%= link_to("Profile", current_user) %>
-              </li>
-              <li>
                 <%= link_to("New Event", new_event_path) %>
               </li>
+              <li>
+                 <%= link_to("Profile", current_user) %>
+              </li>
+
               <li>
                 <%= link_to('Logout', destroy_user_session_path, :method => :delete) %>
               </li>

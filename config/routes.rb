@@ -5,6 +5,8 @@ FoodFinder::Application.routes.draw do
 
   get "static_pages/about"
 
+  get "static_pages/all_events"
+
   resources :rsvps
 
 
@@ -15,6 +17,7 @@ FoodFinder::Application.routes.draw do
 
   root :to => 'static_pages#home'
   match '/about',   to: 'static_pages#about'
+  match '/feed', to: 'static_pages#all_events'
 
 
   # The priority is based upon order of creation:
