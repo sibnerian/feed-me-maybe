@@ -75,7 +75,6 @@ FoodFinder::Application.configure do
       :domain         => 'heroku.com',
       :enable_starttls_auto => true
   }
-  ActionMailer::Base.delivery_method = :smtp
 
 end
 
