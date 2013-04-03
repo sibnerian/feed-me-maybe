@@ -10,6 +10,7 @@ To tackle both of these problems at once, we present Feed Me Maybe. There's a lo
 
 == Todo
 1. Show RSVPs on event page
+2. Fix the Location event listener
 2. Implement the event_changed mailer (ie notification.rb#send_mail)
 3. Implement Facebook login with OmniAuth for iPhone app purposes
 4. Implement searches like date, location, etc
