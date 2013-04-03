@@ -14,6 +14,10 @@
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&libraries=places"></script>
     <style>
 
+      #helpbutton{
+          margin-bottom: 10px;
+      }
+
         #map-canvas {
             height: 350px;
             width: 50%;
@@ -110,6 +114,19 @@
         google.maps.event.addDomListener(window, 'load', initialize);
     </script>
 
+    <script>
+        $('document').ready(function(){
+
+
+            $("#helpbutton").click(function(){
+                bootbox.alert("To select a location, start typing in this box. Once the location you're looking for " +
+                        "appears in the search results, simply click on it, and it will appear on the map automatically.");
+            });
+
+
+        });
+    </script>
+
     <div class="field">
       <%= f.label :name, "Event Name" %><br />
       <%= f.text_field :name %>
@@ -124,8 +141,8 @@
     <%= f.text_field :latitude %>
   </div>
   <div class="field">
-    <%= f.label :location %><br />
-    <%= f.text_field :location %>
+    <%= f.label :location %> <br />
+    <%= f.text_field :location %>  <a href="#" id="helpbutton" class="btn btn-link">What's this?</a>
   </div>
   <div class="field" style="display: none;">
     <%= f.label :longitude %><br />
