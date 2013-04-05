@@ -21,6 +21,7 @@
         FB.getLoginStatus(function(response) {
             if (response.status === 'connected') {
                 // connected
+                testAPI();
             } else if (response.status === 'not_authorized') {
                 // not_authorized
                 login();
@@ -58,6 +59,8 @@
             console.log('Good to see you, ' + response.name + '.');
         });
     }
+
+
 </script>
 
 
