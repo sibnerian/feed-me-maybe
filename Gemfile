@@ -8,6 +8,8 @@ gem 'will_paginate'
 gem 'bootstrap-will_paginate'
 gem 'mail'
 gem 'actionmailer'
+gem 'rspec-rails'
+gem 'capybara'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
@@ -26,7 +28,6 @@ gem 'jquery-rails'
 
 group :development do 
   gem 'sqlite3'
-  gem 'rspec-rails'
   gem 'letter_opener'
 end
 
@@ -36,14 +37,8 @@ end
 
 gem 'bootstrap-sass'
 
-group :development, :test do
-  gem 'capybara'
-end
 
 group :test do
-  gem 'rspec-rails'
-  gem 'capybara'
-  gem 'cucumber-rails'
 end
 
 # To use ActiveModel has_secure_password

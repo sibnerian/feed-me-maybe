@@ -59,6 +59,10 @@ module FoodFinder
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
 
+    config.generators do |g|
+      g.fixture_replacement :factory_girl
+    end
+
     config.action_mailer.default_url_options = { :host => "feed-me-maybe.herokapp.com" }
 
 
