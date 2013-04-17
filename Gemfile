@@ -8,8 +8,6 @@ gem 'will_paginate'
 gem 'bootstrap-will_paginate'
 gem 'mail'
 gem 'actionmailer'
-gem 'rspec-rails'
-gem 'capybara'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
@@ -29,6 +27,8 @@ gem 'jquery-rails'
 group :development do 
   gem 'sqlite3'
   gem 'letter_opener'
+  gem 'rspec-rails'
+  gem 'capybara'
 end
 
 group :production do 
