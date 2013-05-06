@@ -19,8 +19,10 @@
       }
 
         #map-canvas {
-            height: 350px;
-            width: 50%;
+            height: 400px;
+            width: 75%;
+            margin-left: 12.5%;
+            border: 1px solid gray;
 
             margin-top: 0.6em;
         }
@@ -39,29 +41,53 @@
           width: auto; display:inline;
       }
     </style>
+    <script type="text/javascript">
+        var script = '<script type="text/javascript" src="http://google-maps-' +
+                'utility-library-v3.googlecode.com/svn/trunk/infobubble/src/infobubble';
+        if (document.location.search.indexOf('compiled') !== -1) {
+            script += '-compiled';
+        }
+        script += '.js"><' + '/script>';
+        document.write(script);
+    </script>
     <script>
         function initialize() {
             var mapOptions = {
                 center: new google.maps.LatLng(-33.8688, 151.2195),
-                zoom: 13,
+                zoom: 17,
                 mapTypeId: google.maps.MapTypeId.ROADMAP
             };
             var map = new google.maps.Map(document.getElementById('map-canvas'),
                     mapOptions);
+
+            function getLocation() {
+                if (navigator.geolocation) {
+                    navigator.geolocation.getCurrentPosition(showPosition);
+                } else {
+                    alert("Geolocation is not supported by this browser.");
+                }
+            }
+            function showPosition(position) {
+                var lat = position.coords.latitude;
+                var lng = position.coords.longitude;
+                map.setCenter(new google.maps.LatLng(lat, lng));
+            }
+
+            getLocation();
 
             var input = document.getElementById('event_location');
             var autocomplete = new google.maps.places.Autocomplete(input);
 
             autocomplete.bindTo('bounds', map);
 
-            var infowindow = new google.maps.InfoWindow();
+            var infobubble = new InfoBubble();
             var marker = new google.maps.Marker({
                 map: map
             });
 
 
             google.maps.event.addListener(autocomplete, 'place_changed', function() {
-                infowindow.close();
+                infobubble.close();
                 marker.setVisible(false);
                 input.className = '';
                 var place = autocomplete.getPlace();
@@ -114,8 +140,8 @@
                     ].join(' ');
                 }
 
-                infowindow.setContent('<div><strong>' + place.name + '</strong><br>' + address);
-                infowindow.open(map, marker);
+                infobubble.setContent('<div><strong>' + place.name + '</strong><br>' + address);
+                infobubble.open(map, marker);
             });
 
         }
@@ -129,6 +155,23 @@
             $("#helpbutton").click(function(){
                 bootbox.alert("To select a location, start typing in this box. Once the location you're looking for " +
                         "appears in the search results, simply click on it, and it will appear on the map automatically.");
+            });
+
+            var input = document.getElementById('event_location');
+            // dojo.connect(input, 'onkeydown', function(e) {
+            google.maps.event.addDomListener(input, 'keydown', function(e) {
+                if (e.keyCode == 13)
+                {
+                    if (e.preventDefault)
+                    {
+                        e.preventDefault();
+                    }
+                    else
+                    {
+                        e.cancelBubble = true;
+                        e.returnValue = false;
+                    }
+                }
             });
 
 

@@ -5,11 +5,28 @@
 <script type="text/javascript"
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAgh3w_nXd2jjakw-oftQ3Ze3MWT5zxem4&sensor=true">
 </script>
+<script type="text/javascript">
+    var script = '<script type="text/javascript" src="http://google-maps-' +
+            'utility-library-v3.googlecode.com/svn/trunk/infobubble/src/infobubble';
+    if (document.location.search.indexOf('compiled') !== -1) {
+        script += '-compiled';
+    }
+    script += '.js"><' + '/script>';
+    document.write(script);
+</script>
 <style>
 
     #map-canvas-event {
         height: 500px;
         width: 500px;
+    }
+
+    #map-canvas-event img {
+        max-width: none;
+    }
+
+    #map-canvas-event label {
+        width: auto; display:inline;
     }
     input {
         border: 1px solid  rgba(0, 0, 0, 0.5);
@@ -44,7 +61,7 @@
             animation: google.maps.Animation.DROP,
             icon: imageIcon
         });
-        var infowindow = new google.maps.InfoWindow({
+        var infowindow = new InfoBubble({
             content: "Address not found",
             maxWidth: 200
         });
