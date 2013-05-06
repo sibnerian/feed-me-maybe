@@ -14,6 +14,13 @@
     script += '.js"><' + '/script>';
     document.write(script);
 </script>
+<script>
+  $("document").ready(function(){
+    $("#time").html("<b>Time</b>: " + moment($("#time").text()).format("dddd, MMMM Do YYYY, h:mm A"))
+
+  });
+
+</script>
 <style>
 
     #map-canvas-event {
@@ -135,7 +142,7 @@
   <%= @event.description %>
 </p>
 
-<p>
+<p id="time">
   <b>Time:</b>
   <%= @event.time %>
 </p>
