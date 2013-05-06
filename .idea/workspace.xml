@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="52bc8d23-b432-47ce-aa4b-930bf9c3245c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/events/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/events/_form.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/events/show.html.erb" afterPath="$PROJECT_DIR$/app/views/events/show.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
     </list>
     <ignored path="f.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,14 +40,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="_form.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/events/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="18" selection-start="1019" selection-end="1419" vertical-scroll-proportion="-6.9">
+            <state line="54" column="0" selection-start="1465" selection-end="1465" vertical-scroll-proportion="0.2356688">
               <folding>
-                <element signature="e#1812#2067#0" expanded="false" />
-                <element signature="e#1857#1952#0" expanded="false" />
-                <element signature="e#2112#2297#0" expanded="false" />
+                <element signature="e#1500#1755#0" expanded="false" />
+                <element signature="e#1800#1985#0" expanded="false" />
                 <element signature="n#style#0;n#div#3;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#5;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#6;n#!!top" expanded="true" />
@@ -57,10 +56,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/events/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="39" selection-start="1981" selection-end="1981" vertical-scroll-proportion="0.33187774">
+            <state line="63" column="39" selection-start="1981" selection-end="1981" vertical-scroll-proportion="-4.54">
               <folding />
             </state>
           </provider>
@@ -147,8 +146,8 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/spec/mailers/notifications_spec.rb" />
         <option value="$PROJECT_DIR$/spec/models/user_spec.rb" />
-        <option value="$PROJECT_DIR$/app/views/events/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/events/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/events/_form.html.erb" />
       </list>
     </option>
   </component>
@@ -779,25 +778,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/events/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="39" selection-start="1981" selection-end="1981" vertical-scroll-proportion="-4.54">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/events/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="18" selection-start="1019" selection-end="1419" vertical-scroll-proportion="-6.9">
+        <state line="54" column="0" selection-start="1465" selection-end="1465" vertical-scroll-proportion="0.2356688">
           <folding>
-            <element signature="e#1812#2067#0" expanded="false" />
-            <element signature="e#1857#1952#0" expanded="false" />
-            <element signature="e#2112#2297#0" expanded="false" />
+            <element signature="e#1500#1755#0" expanded="false" />
+            <element signature="e#1800#1985#0" expanded="false" />
             <element signature="n#style#0;n#div#3;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#5;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#6;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#9;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/events/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="39" selection-start="1981" selection-end="1981" vertical-scroll-proportion="0.33187774">
-          <folding />
         </state>
       </provider>
     </entry>

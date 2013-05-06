@@ -52,14 +52,6 @@
     </script>
     <script>
         function initialize() {
-            var mapOptions = {
-                center: new google.maps.LatLng(-33.8688, 151.2195),
-                zoom: 17,
-                mapTypeId: google.maps.MapTypeId.ROADMAP
-            };
-            var map = new google.maps.Map(document.getElementById('map-canvas'),
-                    mapOptions);
-
             function getLocation() {
                 if (navigator.geolocation) {
                     navigator.geolocation.getCurrentPosition(showPosition);
@@ -73,7 +65,18 @@
                 map.setCenter(new google.maps.LatLng(lat, lng));
             }
 
+            var mapOptions = {
+                center: new google.maps.LatLng(39.9522, -75.1642),
+                zoom: 17,
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            };
+
+            var map = new google.maps.Map(document.getElementById('map-canvas'),
+                    mapOptions);
+
             getLocation();
+
+
 
             var input = document.getElementById('event_location');
             var autocomplete = new google.maps.places.Autocomplete(input);
