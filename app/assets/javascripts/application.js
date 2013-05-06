@@ -13,6 +13,8 @@
 //= require jquery
 //= require jquery_ujs
 //= require_tree .
+//= require jquery.ui.all
+
 
 /**
  * Bootstrap.js by @fat & @mdo
