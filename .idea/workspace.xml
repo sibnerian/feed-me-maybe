@@ -4,7 +4,6 @@
     <list default="true" id="52bc8d23-b432-47ce-aa4b-930bf9c3245c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/events/nearby.erb" afterPath="$PROJECT_DIR$/app/views/events/nearby.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/newrelic_agent.log" afterPath="$PROJECT_DIR$/log/newrelic_agent.log" />
     </list>
     <ignored path="f.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,10 +54,8 @@
       <file leaf-file-name="nearby.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/events/nearby.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="121" column="45" selection-start="3705" selection-end="3705" vertical-scroll-proportion="0.720524">
-              <folding>
-                <element signature="tag#script#0" expanded="false" />
-              </folding>
+            <state line="45" column="20" selection-start="1147" selection-end="1147" vertical-scroll-proportion="0.33187774">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -819,10 +816,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/events/nearby.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="121" column="45" selection-start="3705" selection-end="3705" vertical-scroll-proportion="0.720524">
-          <folding>
-            <element signature="tag#script#0" expanded="false" />
-          </folding>
+        <state line="45" column="20" selection-start="1147" selection-end="1147" vertical-scroll-proportion="0.33187774">
+          <folding />
         </state>
       </provider>
     </entry>
