@@ -65,7 +65,9 @@
         var map = new google.maps.Map(document.getElementById('map-canvas'),
                 mapOptions);
 
-        getLocation();
+        $('document').ready(function(){
+            getLocation();
+        });
 
         var image_url = "http://i.imgur.com/22ese9F.png?1";
         var imageIcon = new google.maps.MarkerImage(
