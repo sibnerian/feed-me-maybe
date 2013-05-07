@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="52bc8d23-b432-47ce-aa4b-930bf9c3245c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/events/nearby.erb" afterPath="$PROJECT_DIR$/app/views/events/nearby.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/newrelic_agent.log" afterPath="$PROJECT_DIR$/log/newrelic_agent.log" />
     </list>
     <ignored path="f.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,7 +26,7 @@
       <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/events/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="136" column="21" selection-start="4551" selection-end="4552" vertical-scroll-proportion="-24.2">
+            <state line="2359" column="47" selection-start="115538" selection-end="115541" vertical-scroll-proportion="-6.46">
               <folding>
                 <marker date="1367835332000" expanded="false" signature="26861:26878" placeholder="..." />
               </folding>
@@ -41,13 +43,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/events/show.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="82" column="50" selection-start="2488" selection-end="2488" vertical-scroll-proportion="-0.625">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="nearby.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/events/nearby.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="40" selection-start="2012" selection-end="2012" vertical-scroll-proportion="0.5929752">
+            <state line="121" column="45" selection-start="3705" selection-end="3705" vertical-scroll-proportion="0.720524">
               <folding>
                 <element signature="tag#script#0" expanded="false" />
-                <element signature="tag#script#1" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -735,29 +745,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/events/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="50" selection-start="2488" selection-end="2488" vertical-scroll-proportion="-4.8">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/events/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="136" column="21" selection-start="4551" selection-end="4552" vertical-scroll-proportion="-24.2">
-          <folding>
-            <marker date="1367835332000" expanded="false" signature="26861:26878" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/events/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -807,12 +794,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/events/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2359" column="47" selection-start="115538" selection-end="115541" vertical-scroll-proportion="-6.46">
+          <folding>
+            <marker date="1367835332000" expanded="false" signature="26861:26878" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/events/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/events/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="82" column="50" selection-start="2488" selection-end="2488" vertical-scroll-proportion="-0.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/events/nearby.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="40" selection-start="2012" selection-end="2012" vertical-scroll-proportion="0.5929752">
+        <state line="121" column="45" selection-start="3705" selection-end="3705" vertical-scroll-proportion="0.720524">
           <folding>
             <element signature="tag#script#0" expanded="false" />
-            <element signature="tag#script#1" expanded="false" />
           </folding>
         </state>
       </provider>
