@@ -104,7 +104,12 @@
         }
 
         <% @events.each do |event| %>
+        try{
             createMarker(<%= event.latitude %>, <%= event.longitude %>, "<a href='/events/<%= event.id %>'><%= event.name %> </a>");
+        }
+        catch(err){
+            console.log(err);
+        }
         <% end %>
 
 

@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52bc8d23-b432-47ce-aa4b-930bf9c3245c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/events/nearby.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/development.sqlite3" afterPath="$PROJECT_DIR$/db/development.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/pids/server.pid" afterPath="$PROJECT_DIR$/tmp/pids/server.pid" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/events_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/events_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/events/show.html.erb" afterPath="$PROJECT_DIR$/app/views/events/show.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/newrelic_agent.log" afterPath="$PROJECT_DIR$/log/newrelic_agent.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/events/nearby.erb" afterPath="$PROJECT_DIR$/app/views/events/nearby.erb" />
     </list>
     <ignored path="f.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,10 +43,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nearby.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="nearby.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/events/nearby.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="89" column="36" selection-start="2778" selection-end="2778" vertical-scroll-proportion="-3.6962025">
+            <state line="110" column="29" selection-start="3425" selection-end="3425" vertical-scroll-proportion="0.8792757">
               <folding>
                 <element signature="tag#script#0" expanded="false" />
                 <element signature="tag#script#1" expanded="false" />
@@ -62,10 +55,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_header.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_header.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="68" selection-start="592" selection-end="592" vertical-scroll-proportion="0.48289737">
+            <state line="16" column="68" selection-start="592" selection-end="592" vertical-scroll-proportion="-10.0">
               <folding />
             </state>
           </provider>
@@ -125,8 +118,8 @@
         <option value="$PROJECT_DIR$/app/controllers/events_controller.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/events/show.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/events/nearby.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_header.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/events/nearby.erb" />
       </list>
     </option>
   </component>
@@ -809,20 +802,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="68" selection-start="592" selection-end="592" vertical-scroll-proportion="-10.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/events/nearby.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="36" selection-start="2778" selection-end="2778" vertical-scroll-proportion="-3.6962025">
+        <state line="110" column="29" selection-start="3425" selection-end="3425" vertical-scroll-proportion="0.8792757">
           <folding>
             <element signature="tag#script#0" expanded="false" />
             <element signature="tag#script#1" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="68" selection-start="592" selection-end="592" vertical-scroll-proportion="0.48289737">
-          <folding />
         </state>
       </provider>
     </entry>
