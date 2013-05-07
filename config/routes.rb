@@ -7,10 +7,15 @@ FoodFinder::Application.routes.draw do
 
   get "static_pages/all_events"
 
+  #This needs to be BEFORE resources :events, or it won't work right :(
+  get "events/nearby"
+
+
   resources :rsvps
 
 
   resources :events
+
 
 
   resources :users

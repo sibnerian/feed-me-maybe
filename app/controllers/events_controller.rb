@@ -12,6 +12,11 @@ class EventsController < ApplicationController
     end
   end
 
+  # GET /events/nearby
+  def nearby
+    @events = Event.all
+  end
+
   # GET /events/1
   # GET /events/1.json
   def show
@@ -22,6 +27,8 @@ class EventsController < ApplicationController
       format.json { render json: @event }
     end
   end
+
+
 
   # GET /events/new
   # GET /events/new.json
@@ -115,6 +122,8 @@ class EventsController < ApplicationController
       end
     end
   end
+
+
 
   def create_rsvp
     @event = Event.find(params[:id])
